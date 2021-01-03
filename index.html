@@ -3,18 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>Mini Site</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,200;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+ body {
+        width: 960px;
+        margin: 20px auto;
+        font-family: 'Nunito Sans', sans-serif;
+      }
+
+      header {
+        border-bottom: 1px solid gray;
+        padding: 8px 0 8px 0;
+      }
+
+      nav {
+        padding: 16px 0 16px 0;
+        border-bottom: 1px solid gray;
+        line-height: 20px;
+        text-align: center;
+      }
+
+      footer {
+        padding: 16px 0 16px 0;
+        border-top: 1px solid gray;
+        clear: left;
+      }
+
+      a {
+        margin-right: 6px;
+      }
+
+ aside {
+        float: left;
+        width: 200px;
+        padding: 5px 8px 0 0;
+        box-sizing: border-box;
+        line-height: 30px;
+        list-style-type: none;
+        margin-bottom: 8px;    
+    }
+section{
+        float: left;
+        width: 760px;
+        padding: 0 2px 0 8px;
+        box-sizing: border-box;
+        border-left: 1px solid gray;
+        }
+#foto{
+    width: 150px;
+    padding-right: 10px;
+    float: left;
+}
+#title{
+    text-align: center;
+}
+      </style>
 </head>
 <body>
-    <li><a href="index.html">Main Page</a></li>
-    <li><a href="files/early-life.html">Early Life and Education</a></li>
-    <li><a href="files/literary-work.html">Literary Work</a></li>
-    <li><a href="files/pupin-coils.html">Pupin coils</a></li>
-    <hr>
-    <h1>Mihajlo Idvorski Pupin</h1>
-    <img src="images/pupin.jpg" alt="Pupin image">
-    <p><b>Mihajlo Idvorski Pupin, Ph.D., LL.D. (Serbian Cyrillic: Михајло Идворски Пупин; 9 October 1858 – 12 March<br> 1935),</b> also known as Michael I. Pupin, was a Serbian American physicist and physical chemist.</p>
-    <p>Pupin is best known for his numerous patents, including a means of greatly extending the range of long-distance <br> communication by placing loading coils (of wire) at predetermined intervals along the transmitting wire <br> (known as "pupinization").</p>
-
-    <p>Pupin was a founding member of National Advisory Committee for Aeronautics (NACA) on March 3, 1915, which later ,<br> became NASA.</p>
-</body>
+    <header>
+        <img src="images/logo.png" alt="Our Company Logo">
+    </header>
+    <nav>
+        <a href="index.html">Main Page</a></li>
+        <a href="files/early-life.html">Early Life and Education</a>
+        <a href="files/literary-work.html">Literary Work</a>
+        <a href="files/pupin-coils.html">Pupin coils</a>
+    </nav>
+    <aside>
+        <li><a href="index.html">Main Page</a></li>
+        <li><a href="files/early-life.html">Early Life and Education</a></li>
+        <li><a href="files/literary-work.html">Literary Work</a></li>
+        <li><a href="files/pupin-coils.html">Pupin coils</a></li>
+    </aside>
+   <section>
+        <h1 id="title">Mihajlo Idvorski Pupin</h1>
+        <img src="images/pupin.jpg" alt="Pupin image" id="foto">
+        <p><b>Mihajlo Idvorski Pupin, Ph.D., LL.D. (Serbian Cyrillic: Михајло Идворски Пупин; 9 October 1858 – 12 March 1935),</b> also known as Michael I. Pupin, was a Serbian American physicist and physical chemist.</p>
+        <p>Pupin is best known for his numerous patents, including a means of greatly extending the range of long-distance communication by placing loading coils (of wire) at predetermined intervals along the transmitting wire (known as "pupinization").</p>
+        <p>Pupin was a founding member of National Advisory Committee for Aeronautics (NACA) on March 3, 1915, which later , became NASA.</p>
+   </section>
+   <footer>
+    Copyright © Daniel Moldovan
+   </footer>
+    </body>
 </html>
